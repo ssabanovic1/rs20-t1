@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<GridPane fx:id="pozadina" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.dugme">
+   <stylesheets>
+      <URL value="@tut1.css"/>
+   </stylesheets>
+
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button layoutX="47.0" layoutY="88.0" mnemonicParsing="false" onAction="#klik" text="Say 'Hello World'" />
+            <Label fx:id="labela" layoutX="87.0" layoutY="39.0" />
+
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
